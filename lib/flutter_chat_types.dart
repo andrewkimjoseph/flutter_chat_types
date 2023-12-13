@@ -1,5 +1,7 @@
 library flutter_chat_types;
 
+export 'src/direct_room.dart';
+export 'src/group_room.dart';
 export 'src/message.dart';
 export 'src/messages/audio_message.dart';
 export 'src/messages/custom_message.dart';

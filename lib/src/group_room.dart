@@ -3,12 +3,12 @@ import 'package:json_annotation/json_annotation.dart';
 import 'package:meta/meta.dart';
 
 import 'message.dart';
+import 'room.dart';
 import 'user.dart';
 
 part 'group_room.g.dart';
 
 /// All possible room types.
-enum RoomType { channel, direct, group }
 
 /// A class that represents a room where 2 or more participants can chat.
 @JsonSerializable()
